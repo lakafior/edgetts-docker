@@ -1,0 +1,10 @@
+version: '3'
+services:
+  tts-converter:
+    image: tts-converter
+    build: .
+    volumes:
+      - ./input_folder:/app/input_folder
+      - ./output_folder:/app/output_folder
+    environment:
+      - VOICE=pl-PL-MarekNeural

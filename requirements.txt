@@ -1,0 +1,5 @@
+PyPDF2
+ebooklib
+beautifulsoup4
+edge_tts
+watchdog
