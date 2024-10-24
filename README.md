@@ -16,7 +16,7 @@ git clone https://github.com/lakafior/edgetts-docker.git
 ```
 cd edgetts-docker
 ```
-3. Create folders for input and output
+3. Create folders for input and output (this is optional, you can point to whatever folders you want in docker-compose.yml)
 ```
 mkdir input_folder && mkdir output_folder
 ```
